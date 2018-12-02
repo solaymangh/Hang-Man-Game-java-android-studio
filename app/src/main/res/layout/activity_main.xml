@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_face"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight=".4"
+            android:src="@drawable/face_1" />
+
+
+        <TextView
+            android:id="@+id/txt_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="online advertising technologies, search engine, cloud computing, software, and hardware."
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="18dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txt_word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="----------"
+            android:textSize="32dp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.034" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".6"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_a"
+                    style="@style/LetterButton"
+                    android:text="A" />
+
+                <TextView
+                    android:id="@+id/txt_b"
+                    style="@style/LetterButton"
+                    android:text="B" />
+
+                <TextView
+                    android:id="@+id/txt_c"
+                    style="@style/LetterButton"
+                    android:text="C" />
+
+                <TextView
+                    android:id="@+id/txt_d"
+                    style="@style/LetterButton"
+                    android:text="D" />
+
+                <TextView
+                    android:id="@+id/txt_e"
+                    style="@style/LetterButton"
+                    android:text="E" />
+
+                <TextView
+                    android:id="@+id/txt_f"
+                    style="@style/LetterButton"
+                    android:text="F" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_g"
+                    style="@style/LetterButton"
+                    android:text="G" />
+
+                <TextView
+                    android:id="@+id/txt_h"
+                    style="@style/LetterButton"
+                    android:text="H" />
+
+                <TextView
+                    android:id="@+id/txt_i"
+                    style="@style/LetterButton"
+                    android:text="I" />
+
+                <TextView
+                    android:id="@+id/txt_j"
+                    style="@style/LetterButton"
+                    android:text="J" />
+
+                <TextView
+                    android:id="@+id/txt_k"
+                    style="@style/LetterButton"
+                    android:text="K" />
+
+                <TextView
+                    android:id="@+id/txt_l"
+                    style="@style/LetterButton"
+                    android:text="L" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_m"
+                    style="@style/LetterButton"
+                    android:text="M" />
+
+                <TextView
+                    android:id="@+id/txt_n"
+                    style="@style/LetterButton"
+                    android:text="N" />
+
+                <TextView
+                    android:id="@+id/txt_o"
+                    style="@style/LetterButton"
+                    android:text="O" />
+
+                <TextView
+                    android:id="@+id/txt_p"
+                    style="@style/LetterButton"
+                    android:text="P" />
+
+                <TextView
+                    android:id="@+id/txt_q"
+                    style="@style/LetterButton"
+                    android:text="Q" />
+
+                <TextView
+                    android:id="@+id/txt_r"
+                    style="@style/LetterButton"
+                    android:text="R" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_s"
+                    style="@style/LetterButton"
+                    android:text="S" />
+
+                <TextView
+                    android:id="@+id/txt_t"
+                    style="@style/LetterButton"
+                    android:text="T" />
+
+                <TextView
+                    android:id="@+id/txt_u"
+                    style="@style/LetterButton"
+                    android:text="U" />
+
+                <TextView
+                    android:id="@+id/txt_v"
+                    style="@style/LetterButton"
+                    android:text="V" />
+
+                <TextView
+                    android:id="@+id/txt_w"
+                    style="@style/LetterButton"
+                    android:text="W" />
+
+                <TextView
+                    android:id="@+id/txt_x"
+                    style="@style/LetterButton"
+                    android:text="X" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_y"
+                    style="@style/LetterButton"
+                    android:text="Y" />
+
+                <TextView
+                    android:id="@+id/txt_z"
+                    style="@style/LetterButton"
+                    android:text="Z" />
+
+                <TextView
+                    style="@style/LetterButton"
+                    android:background="#00000000" />
+
+                <TextView
+                    style="@style/LetterButton"
+                    android:background="#00000000" />
+
+                <TextView
+                    style="@style/LetterButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00000000" />
+
+                <TextView
+                    style="@style/LetterButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00000000" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
